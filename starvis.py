@@ -167,7 +167,7 @@ if __name__ == "__main__":
             print(weather_report)
 
         elif 'open code' in query:
-            codePath = "C:\\Users\\Haris\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+            codePath = os.path.join(os.environ['LOCALAPPDATA'], "Programs", "Microsoft VS Code", "Code.exe")
             os.startfile(codePath)
             
         elif 'send email' in query:
