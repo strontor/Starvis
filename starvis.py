@@ -18,6 +18,7 @@ def speak(audio):
     engine.setProperty('voice', voices[1].id)
     engine.say(audio)   
     engine.runAndWait()
+    engine.setProperty('rate', 170)  # 150-200, ideal for clarity
 
 
 def wishMe():
