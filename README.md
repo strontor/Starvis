@@ -51,14 +51,14 @@ Say things like:
 
 "Stop" to end the assistant
 
-##🔐 Email Setup (Optional)
+## 🔐 Email Setup (Optional)
 To send emails, modify:
 server.login('your_email@gmail.com', 'your_password')
 
-##📸 Preview (Optional GIF or Screenshot Section)
+## 📸 Preview (Optional GIF or Screenshot Section)
 Coming soon!
 
-##🧠 Powered By
+## 🧠 Powered By
 pyttsx3 – Text-to-speech
 
 speech_recognition – Speech to text
