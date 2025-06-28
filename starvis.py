@@ -128,6 +128,19 @@ if __name__ == "__main__":
 
         elif 'open google' in query:
             webbrowser.open("google.com")
+        elif 'help' in query or 'what can you do' in query:
+            help_text = """
+            I can do the following:
+            - Search Wikipedia
+            - Open websites like YouTube, Google, Instagram
+            - Search YouTube videos
+            - Tell time and weather
+            - Send emails
+            - Get stock prices
+            - And more!
+            """
+            speak(help_text)
+            print(help_text)
 
         elif 'open facebook' in query:
             webbrowser.open("facebook.com")
