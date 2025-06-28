@@ -137,7 +137,7 @@ if __name__ == "__main__":
         elif 'open stackoverflow' in query:
             webbrowser.open("stackoverflow.com")
             
-        elif 'search google' or 'search on google' in query:
+        elif 'search google' in query or 'search on google' in query:
             if query == 'search google' or 'search on google':
                     speak("what do you want to search?")
                     search_term = takeCommand().lower()
