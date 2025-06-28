@@ -32,8 +32,7 @@ Starvis is a Python-based voice assistant that performs various tasks through si
 pip install pyttsx3 SpeechRecognition wikipedia pytube3 yfinance requests
 
 ```
-2. Run the assistant
-python Starvis.py
+2. Run the assistant:  python Starvis.py
 
 3.Talk to Starvis!
 Say things like:
@@ -52,3 +51,22 @@ Say things like:
 
 "Stop" to end the assistant
 
+##🔐 Email Setup (Optional)
+To send emails, modify:
+server.login('your_email@gmail.com', 'your_password')
+
+##📸 Preview (Optional GIF or Screenshot Section)
+Coming soon!
+
+##🧠 Powered By
+pyttsx3 – Text-to-speech
+
+speech_recognition – Speech to text
+
+wikipedia – Wiki search
+
+pytube – YouTube search
+
+yfinance – Stock data
+
+requests – Web APIs
